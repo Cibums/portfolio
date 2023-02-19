@@ -1,8 +1,8 @@
 .project{
-    margin: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 h1,h2,h3,h4{
@@ -21,6 +21,7 @@ h1,h2,h3,h4{
 
     .project { 
         flex-direction: column; 
+        align-items: flex-start;
     }
 
     .project-image{
