@@ -7,3 +7,11 @@
 .info{
     margin-top: 150px;
 }
+
+
+@media (max-width: 680px){
+    .page{
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+}

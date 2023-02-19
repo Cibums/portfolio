@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     max-width: 580px;
+    
 }
 
 .skill{
@@ -11,7 +12,8 @@
     min-width: 120px;
     height: 30px;
     border-radius: 15px;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     margin-bottom: 10px;
     border: 1px dotted black;
     align-items: center;
@@ -25,4 +27,10 @@ h4{
 
 .skill p{
     font-size: 130%;
+}
+
+@media (max-width: 1300px){
+    .skills{
+        justify-content: center;
+    }
 }

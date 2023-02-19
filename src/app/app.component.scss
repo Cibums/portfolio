@@ -16,3 +16,10 @@
     pointer-events: none;
     z-index: 2;
 }
+
+@media (max-width: 680px){
+    .page{
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+}

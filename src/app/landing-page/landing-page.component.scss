@@ -30,7 +30,7 @@ $margin-top: 100px;
 .info-part{
     display: flex;
     justify-content: center;
-    //align-items: center;
+    
     flex-direction: column;
 }
 
@@ -68,4 +68,44 @@ h2{
     right: $margin-horizontal; 
     height: 90%; 
     top: $margin-top;
+}
+
+@media (max-width: 680px){
+    .btn-row{
+        flex-direction: column;
+    }
+
+    .btn{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    
+    .background{
+        padding-right: $margin-horizontal / 3;
+        padding-left: $margin-horizontal / 3;
+    }
+}
+
+@media (max-width:1300px) {
+
+    .background{
+        padding-top: 100px;
+    }
+
+    h1{
+        font-size: 10vw;
+    }
+
+    h2{
+        font-size: 5vw;
+    }
+
+    .info-part{
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-img{
+        width: 0;
+    }
 }
