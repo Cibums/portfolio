@@ -1,6 +1,7 @@
 <div class="page">
     <div class="background">
 
+        
         <div class="info-part">
             <h1>Lucas Fransson</h1>
             <h2>Software & Game Developer</h2>
@@ -21,9 +22,11 @@
             </div>
         </div>
 
-        <div style="width: 200px;"></div>
+        <div style="flex: 1;">
+            <img class="profile-img" [src]="profileImage" (mouseover)="showProfileColor=true" (mouseout)="showProfileColor=false"/>
+        </div>
 
-        <img class="profile-img" src="../../assets/guy.png" height="100%" />
+        
     </div>
     
     <div class="gradient">

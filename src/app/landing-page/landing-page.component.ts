@@ -22,6 +22,8 @@ export class LandingPageComponent implements OnInit {
     "SQL"
   ]
 
+  showProfileColor: boolean = false;
+
   focusOn(index: number){
     console.log("Focusing");
 
@@ -38,6 +40,14 @@ export class LandingPageComponent implements OnInit {
 
   linkedin(){
     window.open("https://www.linkedin.com/in/lucas-fransson-641278192/");
+  }
+
+  get profileImage(){
+    if(this.showProfileColor){
+      return "../../assets/profil_cutout_fade.png";
+    }
+
+    return "../../assets/profil_cutout_fade_sketch.png";
   }
 
 }

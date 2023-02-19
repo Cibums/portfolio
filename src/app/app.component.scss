@@ -2,3 +2,15 @@
     width: 100%;
     min-height: 100vh;
 }
+
+.background-texture{
+    background-image: url("https://i0.hippopx.com/photos/870/79/678/banner-header-graph-paper-squared-paper-preview.jpg");
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 2;
+}

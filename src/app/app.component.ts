@@ -45,4 +45,9 @@ export class AppComponent {
       ]
     }
   ]
+
+  get pageHeight(){
+    console.log(document.documentElement.scrollHeight);
+    return document.documentElement.scrollHeight;
+  }
 }
