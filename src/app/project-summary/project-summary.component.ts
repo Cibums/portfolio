@@ -16,6 +16,7 @@ export class ProjectSummaryComponent implements OnInit {
   @Input() projectSummary: string = "This is a placeholder project";
   @Input() projectPath: string = "/";
   @Input() imagePath: string = "";
+  @Input() skills: string[] = [];
 
   goToProject(){
     window.open(this.projectPath, "_blank");

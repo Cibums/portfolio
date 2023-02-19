@@ -12,6 +12,16 @@ export class LandingPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  primarySkills = [
+    "C#",
+    ".NET",
+    "TypeScript",
+    "Unity",
+    "HTML",
+    "CSS",
+    "SQL"
+  ]
+
   focusOn(index: number){
     console.log("Focusing");
 

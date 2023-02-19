@@ -13,13 +13,24 @@ export class AppComponent {
       name: "Forest Generator",
       summary: "Isometric flat forest, randomly generated with a dozen of different plants, trees, bushes and even animals. Optimized to handle big worlds and only render what's being looked at.",
       path: "https://github.com/Cibums/ForestGenerator",
-      imagePath: "https://raw.githubusercontent.com/Cibums/ForestGenerator/main/Assets/forest_image.PNG"
+      imagePath: "https://raw.githubusercontent.com/Cibums/ForestGenerator/main/Assets/forest_image.PNG",
+      skills: [
+        "Unity",
+        "C#",
+        "3D physics"
+      ]
     },
     {
       name: "Turtle Swim",
       summary: "School project for when WWF and our school had a partnership. You are a turtle that should avoid eating plastic in the sea.",
       path: "https://github.com/Cibums/TurtleSwim",
-      imagePath: "https://img.itch.zone/aW1nLzIwOTk0MzEucG5n/315x250%23c/mFfVdz.png"
+      imagePath: "https://img.itch.zone/aW1nLzIwOTk0MzEucG5n/315x250%23c/mFfVdz.png",
+      skills: [
+        "Unity",
+        "C#",
+        "2D physics",
+        "Team work"
+      ]
     }
   ]
 }

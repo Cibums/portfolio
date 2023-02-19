@@ -26,7 +26,7 @@ $page-color: lightblue;
 .info-part{
     display: flex;
     justify-content: center;
-    align-items: center;
+    //align-items: center;
     flex-direction: column;
 }
 
@@ -40,7 +40,7 @@ h1{
 h2{
     font-size: 40px;
     opacity: 0.7;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .down-arrow{
