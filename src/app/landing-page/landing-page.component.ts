@@ -32,4 +32,12 @@ export class LandingPageComponent implements OnInit {
     });
   }
 
+  contact(){
+    window.open("mailto:lucas.fransson@hotmail.com");
+  }
+
+  linkedin(){
+    window.open("https://www.linkedin.com/in/lucas-fransson-641278192/");
+  }
+
 }
