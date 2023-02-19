@@ -31,6 +31,18 @@ export class AppComponent {
         "2D physics",
         "Team work"
       ]
+    },
+    {
+      name: "This Website",
+      summary: "This is the website you're currently on, where you can find my projects and read some about them.",
+      path: "https://github.com/Cibums/portfolio",
+      imagePath: "",
+      skills: [
+        "HTML",
+        "SCSS",
+        "Typescript",
+        "Angular 2"
+      ]
     }
   ]
 }
