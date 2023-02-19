@@ -4,7 +4,7 @@ $margin-top: 100px;
 
 .page{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -81,8 +81,8 @@ h2{
     }
     
     .background{
-        padding-right: $margin-horizontal / 3;
-        padding-left: $margin-horizontal / 3;
+        padding-right: 7vw;
+        padding-left: 7vw;
     }
 }
 
