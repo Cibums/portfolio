@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  projects = [
+    {
+      name: "Test",
+      summary: "rgrgewrgergr"
+    },
+    {
+      name: "Test2",
+      summary: "rgrgewrgefefefefergr"
+    }
+  ]
 }
