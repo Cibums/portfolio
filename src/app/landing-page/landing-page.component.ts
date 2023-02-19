@@ -50,4 +50,11 @@ export class LandingPageComponent implements OnInit {
     return "../../assets/profil_cutout_fade_sketch.png";
   }
 
+  get pageHeight(){
+    return document.documentElement.scrollHeight;
+  }
+
+  get pageWidth(){
+    return document.documentElement.scrollWidth;
+  }
 }

@@ -3,7 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  host: {
+    '(window:resize)': 'onResize()'
+  }
 })
 export class AppComponent {
   title = 'portfolio';
@@ -46,8 +49,10 @@ export class AppComponent {
     }
   ]
 
+  onResize(){
+  }
+
   get pageHeight(){
-    console.log(document.documentElement.scrollHeight);
     return document.documentElement.scrollHeight;
   }
 }
