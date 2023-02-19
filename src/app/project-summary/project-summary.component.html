@@ -1,4 +1,10 @@
 <div class="project">
-    <h1>{{projectName}}</h1>
-    <p>{{projectSummary}}</p>
+    <img [src]="image" class="project-image"/>
+    <div class="info">
+        <h2>{{projectName}}</h2>
+        <p>{{projectSummary}}</p>
+        <button class="btn" (click)="goToProject()">
+            <p>Go to project</p>
+        </button>
+    </div>
 </div>

@@ -1,7 +1,15 @@
 <app-landing-page></app-landing-page>
 
+<app-about-me></app-about-me>
+
 <div class="page">
   <div *ngFor="let project of projects">
-    <app-project-summary></app-project-summary>
+    <app-project-summary 
+      [projectName]="project.name" 
+      [projectSummary]="project.summary" 
+      [projectPath]="project.path"
+      [imagePath]="project.imagePath"
+    >
+    </app-project-summary>
   </div>
 </div>

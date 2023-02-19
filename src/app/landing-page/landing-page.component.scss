@@ -1,3 +1,5 @@
+$page-color: lightblue;
+
 .page{
     width: 100%;
     height: 100vh;
@@ -6,72 +8,39 @@
 }
 
 .background{
-    background-color: pink;
+    background-color: $page-color;
     display: flex;
     flex: 1;
+    justify-content: center;
 }
 
 .gradient{
     display: flex;
     height:150px;
-    background: pink;
-    background: linear-gradient(180deg, pink 0%, white 100%);
+    background: $page-color;
+    background: linear-gradient(180deg, $page-color 0%, white 100%);
     justify-content: center;
     align-items: center;
 }
 
-.info-page{
-    flex: 1;
+.info-part{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.info-part{
-    border: 1px solid black;
-}
-
-.profile-page{
-    width:40%;
-    border: 1px solid black
-}
-
-.btn-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.btn{
-    width: 150px;
-    height: 50px;
-    border-radius: 20px;
-    border: 1px dotted black;
-}
-
-.btn:hover{
-    border: 3px solid black;
-}
 
 h1{
     font-size: 100px;
     margin: 0;
     font-weight: bold;
-    font-family: header-font;
 }
 
 h2{
     font-size: 40px;
     opacity: 0.7;
     margin-bottom: 100px;
-    font-family: header-font;
-}
-
-button p{
-    font-family: header-font;
-    font-size: 200%;
-    margin: 0;
 }
 
 .down-arrow{
@@ -83,4 +52,5 @@ button p{
 .down-arrow:hover{
     transform: translateY(10px);
     opacity: 1;
+    cursor: pointer;
 }

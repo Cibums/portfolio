@@ -1,22 +1,22 @@
 <div class="page">
     <div class="background">
-        <div class="info-page">
-            <div class="info-part">
-                <h1>Lucas Fransson</h1>
-                <h2>Software & Game Developer</h2>
-                <div class="btn-row">
-                    <button class="btn">
-                        <p>About Me</p>
-                    </button>
-                    <button class="btn">
-                        <p>Projects</p>
-                    </button>
-                </div>
+
+        <div class="info-part">
+            <h1>Lucas Fransson</h1>
+            <h2>Software & Game Developer</h2>
+            <div class="btn-row">
+                <button class="btn" (click)="focusOn(0)">
+                    <p>About Me</p>
+                </button>
+                <button class="btn" (click)="focusOn(1)">
+                    <p>Projects</p>
+                </button>
             </div>
         </div>
-        <div class="profile-page">
-            <img class="profile-img" src="../../assets/guy.png" height="100%" />
-        </div>
+
+        <div style="width: 200px;"></div>
+
+        <img class="profile-img" src="../../assets/guy.png" height="100%" />
     </div>
     
     <div class="gradient">

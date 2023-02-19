@@ -10,12 +10,16 @@ export class AppComponent {
 
   projects = [
     {
-      name: "Test",
-      summary: "rgrgewrgergr"
+      name: "Forest Generator",
+      summary: "Isometric flat forest, randomly generated with a dozen of different plants, trees, bushes and even animals. Optimized to handle big worlds and only render what's being looked at.",
+      path: "https://github.com/Cibums/ForestGenerator",
+      imagePath: "https://raw.githubusercontent.com/Cibums/ForestGenerator/main/Assets/forest_image.PNG"
     },
     {
-      name: "Test2",
-      summary: "rgrgewrgefefefefergr"
+      name: "Turtle Swim",
+      summary: "School project for when WWF and our school had a partnership. You are a turtle that should avoid eating plastic in the sea.",
+      path: "https://github.com/Cibums/TurtleSwim",
+      imagePath: "https://img.itch.zone/aW1nLzIwOTk0MzEucG5n/315x250%23c/mFfVdz.png"
     }
   ]
 }

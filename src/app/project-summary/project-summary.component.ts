@@ -14,5 +14,20 @@ export class ProjectSummaryComponent implements OnInit {
   
   @Input() projectName: string = "Project";
   @Input() projectSummary: string = "This is a placeholder project";
+  @Input() projectPath: string = "/";
+  @Input() imagePath: string = "";
+
+  goToProject(){
+    window.open(this.projectPath, "_blank");
+  }
+
+  get image(){
+    if(this.imagePath == ""){
+      return "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png";
+    }
+    else{
+      return this.imagePath;
+    }
+  }
 
 }
