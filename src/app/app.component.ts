@@ -50,7 +50,6 @@ export class AppComponent {
   ]
 
   focusOn(id: string){
-
     var rect = document.getElementById(id)?.getBoundingClientRect();
 
     if(rect){

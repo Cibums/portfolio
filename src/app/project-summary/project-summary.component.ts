@@ -30,5 +30,4 @@ export class ProjectSummaryComponent implements OnInit {
       return this.imagePath;
     }
   }
-
 }

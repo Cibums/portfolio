@@ -13,6 +13,5 @@ export class SkillRowComponent implements OnInit {
   }
 
   @Input() label = "Skills used:";
-
   @Input() skills: string[] = [ ]
 }
