@@ -7,10 +7,10 @@
             <h2>Software & Game Developer</h2>
             <app-skill-row [skills]="primarySkills" label="Skills:"></app-skill-row>
             <div class="btn-row">
-                <button class="btn" (click)="focusOn(0)">
+                <button class="btn" (click)="focusOn('about')">
                     <p>About Me</p>
                 </button>
-                <button class="btn" (click)="focusOn(1)">
+                <button class="btn" (click)="focusOn('projects')">
                     <p>Projects</p>
                 </button>
                 <button class="btn" (click)="contact()">
@@ -30,6 +30,6 @@
     </div>
     
     <div class="gradient">
-        <img (click)="focusOn(0)" class="down-arrow" src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Arrow-down.svg" />
+        <img (click)="focusOn('about')" class="down-arrow" src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Arrow-down.svg" />
     </div>
 </div>

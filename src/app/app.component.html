@@ -1,8 +1,8 @@
-<app-landing-page></app-landing-page>
+<app-landing-page (focusEvent)="focusOn($event)"></app-landing-page>
 
-<app-about-me></app-about-me>
+<app-about-me id="about"></app-about-me>
 
-<div class="page">
+<div class="page" id="projects">
   <h1>Projects</h1>
   <div *ngFor="let project of projects">
     <app-project-summary 

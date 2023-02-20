@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-landing-page',
@@ -12,6 +12,8 @@ export class LandingPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  @Output() focusEvent = new EventEmitter<string>();
+
   primarySkills = [
     "C#",
     ".NET",
@@ -24,14 +26,8 @@ export class LandingPageComponent implements OnInit {
 
   showProfileColor: boolean = false;
 
-  focusOn(index: number){
-    console.log("Focusing");
-
-    window.scroll({ 
-      top: window.innerHeight * (index + 1), 
-      left: 0, 
-      behavior: 'smooth' 
-    });
+  focusOn(id: string){
+    this.focusEvent.emit(id);
   }
 
   contact(){
