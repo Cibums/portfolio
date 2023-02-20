@@ -13,6 +13,22 @@ export class AppComponent {
 
   projects = [
     {
+      name: "Multiplayer FPS game - Under development",
+      summary: "Fast-paced multiplayer FPS game, where you play as robots in a future setting.",
+      path: "/",
+      imagePath: "",
+      skills: [],
+      showProject: false
+    },
+    {
+      name: "Casual farming game - Under development",
+      summary: "Casual farming game, focusing on visual aspects more than gameplay",
+      path: "/",
+      imagePath: "",
+      skills: [],
+      showProject: false
+    },
+    {
       name: "Forest Generator",
       summary: "Isometric flat forest, randomly generated with a dozen of different plants, trees, bushes and even animals. Optimized to handle big worlds and only render what's being looked at.",
       path: "https://github.com/Cibums/ForestGenerator",
