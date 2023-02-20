@@ -49,6 +49,19 @@ export class AppComponent {
     }
   ]
 
+  focusOn(id: string){
+
+    var rect = document.getElementById(id)?.getBoundingClientRect();
+
+    if(rect){
+      window.scroll({ 
+        top: rect.y, 
+        left: 0, 
+        behavior: 'smooth' 
+      });
+    }
+  }
+
   onResize(){
   }
 
