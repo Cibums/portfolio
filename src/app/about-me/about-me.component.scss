@@ -1,21 +1,21 @@
-.page{
-    padding-left: 150px;
-    padding-right: 150px;
-    border: 1px solid white;
-    margin-bottom: 150px;
+.page {
+  padding-left: 150px;
+  padding-right: 150px;
+  border: 1px solid white;
+  margin-bottom: 150px;
 }
 
-.info{
-    margin-top: 150px;
+.info {
+  margin-top: 150px;
 }
 
-a{
-    color: black;
+a {
+  color: black;
 }
 
-@media (max-width: 680px){
-    .page{
-        padding-right: 75px;
-        padding-left: 75px;
-    }
+@media (max-width: 680px) {
+  .page {
+    padding-right: 75px;
+    padding-left: 75px;
+  }
 }

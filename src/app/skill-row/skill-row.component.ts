@@ -3,15 +3,13 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-skill-row',
   templateUrl: './skill-row.component.html',
-  styleUrls: ['./skill-row.component.scss']
+  styleUrls: ['./skill-row.component.scss'],
 })
 export class SkillRowComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
-  }
-
-  @Input() label = "Skills used:";
-  @Input() skills: string[] = [ ]
+  @Input() label = 'Skills used:';
+  @Input() skills: string[] = [];
 }

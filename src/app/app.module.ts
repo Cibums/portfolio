@@ -13,12 +13,10 @@ import { SkillRowComponent } from './skill-row/skill-row.component';
     LandingPageComponent,
     ProjectSummaryComponent,
     AboutMeComponent,
-    SkillRowComponent
+    SkillRowComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -3,54 +3,44 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
-  styleUrls: ['./landing-page.component.scss']
+  styleUrls: ['./landing-page.component.scss'],
 })
 export class LandingPageComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   @Output() focusEvent = new EventEmitter<string>();
 
-  primarySkills = [
-    "C#",
-    ".NET",
-    "TypeScript",
-    "Unity",
-    "HTML",
-    "CSS",
-    "SQL"
-  ]
+  primarySkills = ['C#', '.NET', 'TypeScript', 'Unity', 'HTML', 'CSS', 'SQL'];
 
   showProfileColor: boolean = false;
 
-  focusOn(id: string){
+  focusOn(id: string) {
     this.focusEvent.emit(id);
   }
 
-  contact(){
-    window.open("mailto:lucas.fransson@hotmail.com");
+  contact() {
+    window.open('mailto:lucas.fransson@hotmail.com');
   }
 
-  linkedin(){
-    window.open("https://www.linkedin.com/in/lucas-fransson-641278192/");
+  linkedin() {
+    window.open('https://www.linkedin.com/in/lucas-fransson-641278192/');
   }
 
-  get profileImage(){
-    if(this.showProfileColor){
-      return "../../assets/profil_cutout_fade.png";
+  get profileImage() {
+    if (this.showProfileColor) {
+      return '../../assets/profil_cutout_fade.png';
     }
 
-    return "../../assets/profil_cutout_fade_sketch.png";
+    return '../../assets/profil_cutout_fade_sketch.png';
   }
 
-  get pageHeight(){
+  get pageHeight() {
     return document.documentElement.scrollHeight;
   }
 
-  get pageWidth(){
+  get pageWidth() {
     return document.documentElement.scrollWidth;
   }
 }

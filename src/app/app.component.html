@@ -5,9 +5,9 @@
 <div class="page" id="projects">
   <h1>Projects</h1>
   <div *ngFor="let project of projects">
-    <app-project-summary 
-      [projectName]="project.name" 
-      [projectSummary]="project.summary" 
+    <app-project-summary
+      [projectName]="project.name"
+      [projectSummary]="project.summary"
       [projectPath]="project.path"
       [imagePath]="project.imagePath"
       [skills]="project.skills"
@@ -17,4 +17,4 @@
   </div>
 </div>
 
-<div class="background-texture" [ngStyle]="{'height.px': pageHeight}"></div>
+<div class="background-texture" [ngStyle]="{ 'height.px': pageHeight }"></div>
