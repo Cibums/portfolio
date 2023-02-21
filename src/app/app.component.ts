@@ -55,7 +55,7 @@ export class AppComponent {
       name: "This Website",
       summary: "This is the website you're currently on, where you can find my projects and read some about them.",
       path: "https://github.com/Cibums/portfolio",
-      imagePath: "",
+      imagePath: "assets/hemsida_thumbnail.png",
       skills: [
         "HTML",
         "SCSS",
